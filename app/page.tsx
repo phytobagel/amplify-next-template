@@ -33,30 +33,30 @@ export default function Home() {
 
       <div className={styles.grid}>
         <a
-          href="https://docs.amplify.aws/gen2/"
+          href="https://github.com/phytobagel"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Docs <span>-&gt;</span>
+            Github <span>-&gt;</span>
           </h2>
-          <p>Review documentation for Amplify's code-first DX (Gen 2).</p>
+          <p></p>
         </a>
 
         <a
-          href="https://docs.amplify.aws/gen2/start/quickstart/"
+          href="https://en.wikipedia.org/wiki/Dog_with_a_Blog"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Quickstart <span>-&gt;</span>
+            Blog <span>-&gt;</span>
           </h2>
-          <p>Follow a tutorial to build a fullstack app with Amplify Gen 2.</p>
+          <p></p>
         </a>
 
-        <a
+        {/* <a
           href="https://docs.amplify.aws/gen2/build-a-backend/auth/set-up-auth/"
           className={styles.card}
           target="_blank"
@@ -81,7 +81,7 @@ export default function Home() {
             Fully-typed real-time API with NoSQL database.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   )
 }
