@@ -1,13 +1,12 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Ive got a lot to do!
-          Get started by editing&nbsp;
+          Ive got a lot to do! Get started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code>
         </p>
       </div>
@@ -80,8 +79,8 @@ export default function Home() {
           <p>
             Fully-typed real-time API with NoSQL database.
           </p>
-        </a>
-      </div> */}
+        </a>*/}
+      </div>
     </main>
-  )
+  );
 }
